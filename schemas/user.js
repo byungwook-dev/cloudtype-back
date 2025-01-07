@@ -9,5 +9,5 @@ const userSchema = new Schema({
     updatedAt: { type: String, default: getCurrentTime },
 });
 
-// model("객체명", 스키마, "컬렉션(테이블)명");
+// model("객체명", 스키마, "컬렉션(테이블)명"); - ;붙이기
 export default model("User", userSchema, "users");
